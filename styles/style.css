@@ -1,0 +1,65 @@
+body{
+  background: url("../icons/background-img.jpg") no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.gamebox{
+  text-align:center;
+  top: 40%;
+  left: 50%;
+  position: absolute;
+}
+
+img.player1-img{
+  max-width: 100px;
+  height: 100px;
+  margin-left: -120px;
+  margin-right: 50px;
+}
+
+img.player2-img{
+  max-width: 100px;
+  height: 100px;
+  margin-left: 50px;
+  margin-right: auto;
+}
+
+.player{
+  position: absolute;
+  margin-left: -100px;
+  margin-right: 50px;
+  top: 80%;
+}
+
+.computer{
+  top: 80%;
+  margin-right: auto;
+  margin-left: 86px;
+  position: absolute;
+}
+
+.buttons{
+  top: 60%;
+  left: 46%;
+  position: absolute;
+}
+
+.winner{
+  top: 33%;
+  left: 49%;
+  position: absolute;
+  font-size: 24px;
+}
+
+.paper-button:hover, .rock-button:hover, .scissor-button:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.paper-button:active, .rock-button:active, .scissor-button:active{
+  background-color: red;
+  font-family: sans-serif;
+}
